@@ -12,6 +12,7 @@
   --dark-text: #f9faf8;
   --dark-text-secondary: #e5e7eb;
   --blue: #3882f6;
+  --gray: #e5e7eb;
 }
 
 /* Utilizes */
@@ -116,3 +117,27 @@ section.information .information-card img {
   margin-bottom: 12px;
 }
 /* Information section */
+
+/* Quote section */
+section.quote {
+  background-color: var(--gray);
+}
+
+section.quote .quote-text-wrapper {
+  width: 65%;
+  margin: 0 auto;
+}
+
+section.quote .quote-text {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  color: #1f2937;
+}
+
+section.quote .quote-text + p {
+  margin-top: 14px;
+  text-align: right;
+  font-weight: bold;
+}
+/* Quote section */
