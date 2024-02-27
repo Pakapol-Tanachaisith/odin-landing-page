@@ -141,3 +141,34 @@ section.quote .quote-text + p {
   font-weight: bold;
 }
 /* Quote section */
+
+/* CTA section */
+section.cta .cta-card {
+  background-color: var(--blue);
+  width: 80%;
+  margin: 0 auto;
+  padding: 24px 72px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.cta .cta-card h2 {
+  color: white;
+  margin-bottom: 4px;
+}
+section.cta .cta-card p {
+  color: var(--gray);
+}
+
+section.cta .cta-card .action-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 24px;
+  font-weight: 600;
+}
+/* CTA section */
