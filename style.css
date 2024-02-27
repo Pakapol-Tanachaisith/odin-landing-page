@@ -91,3 +91,28 @@ header nav > a {
   margin-top: 35px;
 }
 /* Hero section */
+
+/* Information section */
+section.information > h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
+}
+
+section.information .information-cards {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+section.information .information-card {
+  text-align: center;
+}
+
+section.information .information-card img {
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+/* Information section */
