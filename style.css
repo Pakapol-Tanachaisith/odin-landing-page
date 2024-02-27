@@ -11,8 +11,10 @@
 :root {
   --dark-text: #f9faf8;
   --dark-text-secondary: #e5e7eb;
+  --blue: #3882f6;
 }
 
+/* Utilizes */
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -22,8 +24,25 @@
   background-color: #1f2937;
 }
 
+.page-section {
+  padding: 80px 0;
+}
+/* Utilizes */
+
+/* Common Element */
+.btn {
+  background-color: var(--blue);
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 24px;
+  font-weight: 600;
+}
+/* Common Element */
+
 header div.container {
-  padding: 24px;
+  padding: 24px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,3 +64,30 @@ header nav > a {
   font-size: 18px;
   color: var(--dark-text-secondary);
 }
+
+/* Hero section */
+.hero > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero > .container > .left {
+  width: 40%;
+}
+
+.hero .hero-main-text {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: var(--dark-text);
+}
+
+.hero .left > p {
+  font-size: 18px;
+  color: var(--dark-text-secondary);
+  padding: 10px 0;
+}
+
+.hero .left > button.btn {
+  margin-top: 35px;
+}
+/* Hero section */
