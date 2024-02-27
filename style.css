@@ -172,3 +172,10 @@ section.cta .cta-card .action-btn {
   font-weight: 600;
 }
 /* CTA section */
+
+footer {
+  background-color: var();
+  padding: 24px 0;
+  text-align: center;
+  color: white;
+}
