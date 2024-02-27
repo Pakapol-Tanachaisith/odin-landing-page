@@ -1,3 +1,47 @@
-h1 {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --dark-text: #f9faf8;
+  --dark-text-secondary: #e5e7eb;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.bg-dark {
+  background-color: #1f2937;
+}
+
+header div.container {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  color: var(--dark-text);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav {
+  display: flex;
+  gap: 15px;
+}
+
+header nav > a {
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--dark-text-secondary);
 }
